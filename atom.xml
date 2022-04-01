@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://daifenghao.github.io</id>
     <title>DFH编程笔记</title>
-    <updated>2022-03-31T10:39:07.227Z</updated>
+    <updated>2022-04-01T02:49:53.117Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://daifenghao.github.io"/>
     <link rel="self" href="https://daifenghao.github.io/atom.xml"/>
@@ -11,45 +11,38 @@
     <icon>https://daifenghao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, DFH编程笔记</rights>
     <entry>
-        <title type="html"><![CDATA[大家好]]></title>
-        <id>https://daifenghao.github.io/post/da-jia-hao/</id>
-        <link href="https://daifenghao.github.io/post/da-jia-hao/">
+        <title type="html"><![CDATA[课程学习全集，国家级课程！还有很多使用资源]]></title>
+        <id>https://daifenghao.github.io/post/course learning-d/</id>
+        <link href="https://daifenghao.github.io/post/course learning-d/">
         </link>
-        <updated>2022-03-31T10:35:06.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://daifenghao.github.io/post-images/1648722918559.jpg" alt="" loading="lazy"><br>
-今天我的网站就正式开始运营了</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://daifenghao.github.io/post/hello-gridea/</id>
-        <link href="https://daifenghao.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <updated>2022-04-01T01:26:41.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="今天我给大家带来了各种实用资源好了废话不多说直接上链接走起">今天我给大家带来了各种实用资源，好了，废话不多说，直接上链接！走起！！</h2>
+<h2 id="1">1</h2>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <content type="html"><![CDATA[<h2 id="今天我给大家带来了各种实用资源好了废话不多说直接上链接走起">今天我给大家带来了各种实用资源，好了，废话不多说，直接上链接！走起！！</h2>
+<h2 id="1">1</h2>
 <!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+<h3 id="国家中小学智慧教育平台">国家中小学智慧教育平台</h3>
+<p><a href="https://www.zxx.edu.cn">点击进入</a><br>
+简介：“国家中小学智慧教育平台”是教育部在总结“国家中小学网络云平台”运行服务经验的基础上，研究制定的《国家中小学智慧教育平台建设与应用方案》，并将原云平台改版升级为“国家中小学智慧教育平台”，于2022年3月1日上线试运行。升级后的平台进一步丰富了原有的专题教育和课程教学资源，并新增加了课后服务、教师研修、家庭教育、教改实践经验等4类资源，共有6个版块，进一步凸显了服务“双减”工作的需要。</p>
+<h2 id="2">2</h2>
+<!-- more -->
+<h3 id="我要自学网">我要自学网</h3>
+<p><a href="https://www.51zxw.net">点击进入</a><br>
+简介：我要自学网是由来自电脑培训学校和职业高校的老师联手创立的一个视频教学网，网站里的视频教程均由经验丰富的在职老师原创录制，同时提供各类贴心服务，让大家享受一站式的学习体验。网站意在把学校的专业教育带给更多学子，网站的目标是“做出最好的视频教程，提高全国人民计算机水平”。</p>
+<h2 id="3">3</h2>
+<!-- more -->
+<h3 id="全历史">全历史</h3>
+<p><a href="https://www.allhistory.com">点击进入</a><br>
+简介：这是一个历史文化爱好者必须收藏的网站，知识价值非常高，网站中按照时间轴展现了历史进程，清晰地呈现了历史节点上六大板块的内容；当然，限于网站能力，在某个特定时期的历史肯定不会特别深入，但用来学习整体的历史知识框架非常好。</p>
+<h2 id="4">4</h2>
+<!-- more -->
+<h3 id="imyshare">Imyshare</h3>
+<p><a href="https://imyshare.com">点击进入</a><br>
+简介：这是一个黑科技网站，里面都是站长精心寻找的资源。汇集优质的软件工具，学习资源，网站导航，希望可以惊到你。</p>
+<p>。</p>
+<!-- more -->
+<p>这篇文章还在持续更新中，有时间了多来看看哦。</p>
 ]]></content>
     </entry>
 </feed>
