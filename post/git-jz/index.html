@@ -1,117 +1,150 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>GitHub实用篇-建网站 | DFH编程笔记</title>
-<meta name="description" content="温故而知新" />
-<link rel="shortcut icon" href="https://daifenghao.github.io/favicon.ico">
-<link rel="stylesheet" href="https://daifenghao.github.io/styles/main.css">
+<!doctype html>
+<html amp lang="">
 
-<script src="https://daifenghao.github.io/media/js/jquery.min.js"></script>
-<script src="https://daifenghao.github.io/media/js/masonry.pkgd.min.js"></script>
-<script src="https://daifenghao.github.io/media/js/aos.js"></script>
-<script src="https://daifenghao.github.io/media/js/pace.min.js"></script>
-<script src="https://daifenghao.github.io/media/js/view-image.min.js"></script>
-<script src="https://daifenghao.github.io/media/js/jquery.magnific-popup.min.js"></script>
-<script src="https://daifenghao.github.io/media/js/functions.js"></script>
-    <meta name="referrer" content="never">
-    <meta name="description" content="今天我要和大家分享如何在github上建设网站，整个过程非常简单。
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="今天我要和大家分享如何在github上建设网站，整个过程非常简单。
 1.我们要先注册一个GitHub账号
 2.然后我们要创建一个新库，如果想建设一个向我这样的网站（所说的是域名），那么你库的名字必须是：用户名.github.io，如果想要一..." />
-    <meta name="keywords" content="" />
-    <script src="https://daifenghao.github.io/media/js/waterfall.min.js"></script>
-    <script src="https://daifenghao.github.io/media/js/prism.min.js"></script>
-  </head>
-  <body>
-            <header id="header" class="grid-container">
-        <!-- start: .menu-wrapper -->
-        <div class="menu-mobile"> 
-          <i class="fa fa-reorder"></i>
-        </div>
-        <div class="menu-wrapper">
-          <div class="">
-            <div class="logo">
-              <a href="https://daifenghao.github.io"><img src="" alt=""></a>
-            </div>
-            <!-- start: .main-nav -->
+<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+<link rel="preconnect dns-prefetch" href="https://cdn.jsdelivr.net/" crossorigin>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<title>GitHub实用篇-建网站 | DFH编程笔记</title>
 
-            <nav class="main-nav grid-container grid-parent">
-              <ul id="menu-header" class="menu gradient-effect">
-                <li class=""><a href="https://daifenghao.github.io" class="menu">首页</a></li>
-                
-                  <li class="" >
-                    <a href="/" class="menu">
-                      首页
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/archives" class="menu">
-                      归档
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/tags" class="menu">
-                      标签
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/post/about" class="menu">
-                      关于
-                    </a>
-                  </li>
-                
-                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
-              </ul>
-            </nav>
-            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
-            <!-- end: .main-nav -->
-            <div class="clear"></div>
-            <div class="border hide-on-tablet hide-on-mobile"></div>
-          </div>    
-          <div class="clear"></div>
-        </div>
-        <!-- end: .menu-wrapper -->
-        <div class="clear"></div>
-      </header>
-      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
-        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
-          <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1650438259385" action="/search/index.html" class="search-form" _lpchecked="1">
-              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
-              <button type="submit" class="submit" aria-label="Submit">
-                <i class="fa fa-search-line"></i>
-              </button>
-            </form>
+
+  
+
+    
+
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<link rel="canonical" href="https://daifenghao.github.io/post/git-jz/" />
+<link rel="shortcut icon" href="https://daifenghao.github.io/favicon.ico?v=1650438770154">
+
+<meta name="author" content="">
+
+<meta itemprop="name" content="GitHub实用篇-建网站 | DFH编程笔记">
+<meta itemprop="description" content="今天我要和大家分享如何在github上建设网站，整个过程非常简单。
+1.我们要先注册一个GitHub账号
+2.然后我们要创建一个新库，如果想建设一个向我这样的网站（所说的是域名），那么你库的名字必须是：用户名.github.io，如果想要一...">
+<meta itemprop="image" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GitHub实用篇-建网站 | DFH编程笔记">
+<meta name="twitter:description" content="今天我要和大家分享如何在github上建设网站，整个过程非常简单。
+1.我们要先注册一个GitHub账号
+2.然后我们要创建一个新库，如果想建设一个向我这样的网站（所说的是域名），那么你库的名字必须是：用户名.github.io，如果想要一...">
+<meta name="twitter:image" content="" />
+<meta name="twitter:image:alt" content="GitHub实用篇-建网站 | DFH编程笔记" />
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://daifenghao.github.io/post/git-jz/">
+<meta property="og:title" content="GitHub实用篇-建网站 | DFH编程笔记">
+<meta property="og:description" content="今天我要和大家分享如何在github上建设网站，整个过程非常简单。
+1.我们要先注册一个GitHub账号
+2.然后我们要创建一个新库，如果想建设一个向我这样的网站（所说的是域名），那么你库的名字必须是：用户名.github.io，如果想要一...">
+<meta property="og:image" content="">
+<meta property="og:image:alt" content="GitHub实用篇-建网站 | DFH编程笔记" />
+<meta property="og:site_name" content="DFH编程笔记">
+<meta property="og:locale" content="zh_CN">
+<meta property="tag" content="GitHub实用篇-建网站 | DFH编程笔记" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="alternate" type="application/atom+xml" title="GitHub实用篇-建网站 | DFH编程笔记 - Atom Feed" href="https://daifenghao.github.io/atom.xml">
+
+  
+  
+  
+    
+  
+  
+
+
+  
+
+
+
+  
+
+
+</head>
+
+<body>
+  <input type="checkbox" id="header-menu-button">
+  <header id="commonTop">
+  <div class="top-container">
+    <div class="title-menus-area">
+      <a class="blog-title" href="https://daifenghao.github.io">DFH编程笔记</a>
+      <label for="header-menu-button" class="top-menus">
+        <nav class="menu-menu-1-container">
+          <ul id="menu-menu-1" class="menu">
+            
+            
+            <li>
+              <a href="/" aria-current="page">首页</a></li>
+            
+            
+            
+            <li>
+              <a href="/archives" aria-current="page">归档</a></li>
+            
+            
+            
+            <li>
+              <a href="/tags" aria-current="page">标签</a></li>
+            
+            
+            
+            <li>
+              <a href="/post/about" aria-current="page">关于</a></li>
+            
+            
+          </ul>
+        </nav>
+      </label>
+    </div>
+    
+  </div>
+</header>
+  <main>
+    <div class="main-container">
+
+      <div class="article-info">
+        
+        <h2 class="article-title">
+          <a href="https://daifenghao.github.io/post/git-jz/">GitHub实用篇-建网站</a>
+        </h2>
+        <div class="flex-box">
+          <div class="flex-box post-meta-box">
+            <a class="post-meta" href="https://daifenghao.github.io"><span
+                class="iconfont icon-mr-postmeta"></span></a>
+            <span class="post-meta"><span class="iconfont icon-mr-postmeta"></span>2022 年 04	月 20日</span>
+            
+
+
           </div>
         </div>
       </div>
-
-      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
-
-        <div class="center content">
-          <div class="featured-image cover" style="background-image: url('');">
-            <div class="meta top"> 
-              <time class="meta-info" style="float:left;" datetime="2022-04-20"><i class="fa fa-calendar"></i><span class="lately">1 小时前</span></time>
-              
-            </div>
-            <div class="info">
-              <div class="tags ">
-                
-              </div>
-              <h1 class="title ularge white bold">GitHub实用篇-建网站</h1>
-            </div>
-          </div>
-        </div>  
-
-        <div class="epcl-page-wrapper">
-          <div class="left-content grid-70 np-mobile">
-            <article class="main-article post">
-              <section class="post-content">
-                <div class="text">
-                  <p>今天我要和大家分享如何在github上建设网站，整个过程非常简单。<br>
+      <div class="content">
+        <p>今天我要和大家分享如何在github上建设网站，整个过程非常简单。<br>
 1.我们要先注册一个GitHub账号<br>
 2.然后我们要创建一个新库，如果想建设一个向我这样的网站（所说的是域名），那么你库的名字必须是：用户名.github.io，如果想要一个：用户名.github.io/库名的页面，那么请你随意。<br>
 3.上传你的网页文件，不知道的可以去我的库中去参观——<a href="https://github.com/daifenghao/daifenghao.github.io">点击去参观</a>文件在master分支中。(注意，你的库中必须有一个index.html文件，否则会404)<br>
@@ -119,195 +152,95 @@
 5.选好部署分支，点击Save，等待十分钟即可<br>
 详见动图<img src="https://daifenghao.github.io/post-images/1650438123306.gif" alt="" loading="lazy"></p>
 
-                </div>
-                <div class="clear"></div>
-              </section>
-            </article>
-            <div class="clear"></div>
-
-            <section class="related section">
-              
-              
-              <article class="next grid-50 tablet-grid-50 grid-parent">
-                <div class="thumb cover lazy loaded" style="background-image: url('https://daifenghao.github.io/post-images/win11-az.webp');"></div>
-                 <a href="https://daifenghao.github.io/post/win11-az/" class="full-link"></a>
-                 <div class="info">
-                  <time datetime="2022-04-20">2022-04-20</time>
-                  <h4 class="title white no-margin">windows11安装教程 （老电脑也能装）</h4>
-                </div>
-                 <span class="epcl-button red">
-                  <img src="https://daifenghao.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
-                </span>
-                <div class="overlay"></div>
-              </article>
-              
-
-                <div class="clear"></div>
-            </section>
-
-              <div class="clear"></div>
-              
-            
-              <div id="comments" class="bg-white hosted ">
-                
-                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-<div class="clear"></div>
-
-<script>
-  var gitalk = new Gitalk({
-    clientID: '8ca5ac4e41441558e58d',
-    clientSecret: '38e1cc9951985db23c348ceb521ddff64772f05d',
-    repo: 'daifenghao.github.io',
-    owner: 'daifenghao',
-    admin: ['daifenghao'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-</script>
-
-                
-                
-              </div>
-            
-
-            </div>
-          </div>
-      </main>
-
-          <footer id="footer" class="grid-container">
-        <div class="widgets row gradient-effect">
-            <div class="default-sidebar border-effect">
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
-                  <h4 class="widget-title title white bordered">最新文章</h4>
-                  
-                  
-                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://daifenghao.github.io/post/git-jz/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2022-04-20">2022-04-20</time>
-                      <h4 class="title usmall">
-                        <a href="https://daifenghao.github.io/post/git-jz/">GitHub实用篇-建网站</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://daifenghao.github.io/post/win11-az/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://daifenghao.github.io/post-images/win11-az.webp');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2022-04-20">2022-04-20</time>
-                      <h4 class="title usmall">
-                        <a href="https://daifenghao.github.io/post/win11-az/">windows11安装教程 （老电脑也能装）</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://daifenghao.github.io/post/yuanbc-1-6d/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://daifenghao.github.io/post-images/yuanbc-1-6d.png');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2022-04-03">2022-04-03</time>
-                      <h4 class="title usmall">
-                        <a href="https://daifenghao.github.io/post/yuanbc-1-6d/">猿编程L1资料汇总（前六节课）</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  
-                  
-                  
-                  <div class="clear"></div>
-                </section>
-              </div>
-
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
-                  <h4 class="widget-title title white bordered">标签云</h4>
-                  <div class="tagcloud">
-                    
-                      <a href="https://daifenghao.github.io/tag/sD10x1o6y/" class="ctag ctag-0 ctag-sD10x1o6y" aria-label="">win11</a>
-                    
-                      <a href="https://daifenghao.github.io/tag/ybc-zl/" class="ctag ctag-1 ctag-ybc-zl" aria-label="">猿编程资料</a>
-                    
-                      <a href="https://daifenghao.github.io/tag/studyd/" class="ctag ctag-2 ctag-studyd" aria-label="">学习</a>
-                    
-                  </div>
-                  <div class="clear"></div>
-                </section>
-              </div>
-
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
-                  <h4 class="widget-title title white bordered">关于我</h4>
-                  <div class="avatar">
-                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://daifenghao.github.io/images/avatar.png);"></span></a>
-                  </div>
-                  <div class="info">
-                    <h4 class="title small author-name gradient-effect no-margin"><a href="">DFH编程笔记</a></h4>
-                    <p class="founder">温故而知新</p>
-                    <div class="social">
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                    </div> 
-                  </div>
-                  <div class="clear"></div>
-                  </section>
-              </div>
-
-            </div>
-            <div class="clear"></div>
-        </div>
-
-        <div class="logo">
-          <a href="https://daifenghao.github.io"><img src="" alt=""></a>
-        </div>
-        <p class="published border-effect">
-          ©2019 共 5 篇文章
-          <br/>
-          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
-        </p>
-        
-        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
-          <i class="fa fa-arrow"></i>
-        </a>
-    </footer>
-    
-    <div class="clear"></div>
-
-        
+      </div>
 
       
-    <script src="https://daifenghao.github.io/media/js/functions-post.js"></script>
+      <nav class="post-nav">
+        
+        
+        <div class="nav-next">
+          <a class="post-nav-link-active" title="windows11安装教程 （老电脑也能装）" href="https://daifenghao.github.io/post/win11-az/">下一篇文章</a>
+          
+
+        </div>
+      </nav>
+      
+
+      
+      
+
+      <div class="post-tags">
+               
+      </div>
+
+
+        
+        
+
+          
+
+            
+
+              
+
+          
+          
 
     </div>
-    <!-- end: #wrapper -->
-  </body>
+
+    <div class="sidebar">
+  <aside id="profile-2" class="widget widget_profile">
+    <div class="profile-box">
+      <div class="profile-avatar">
+        <amp-img src="https://daifenghao.github.io/images/avatar.png?v=1650438770154" alt="avatar"
+          layout="fill"></amp-img>
+      </div>
+      <div class="profile-content">
+        <div class="amp-wp-681d4ff">
+          温故而知新
+        </div>
+
+      </div>
+    </div>
+  </aside>
+  
+    
+  
+     
+
+
+  <aside id="linkcat-2" class="widget widget_links">
+  <h4 class="widget-title">友链</h4>
+  <ul class="xoxo blogroll">
+    
+  </ul>
+</aside>
+
+
+</div>
+    <div class="scrolltop-wrap">
+  <span tabindex="0" role="button" class="go-top" on="tap:commonTop.scrollTo(duration=500, position=top)">
+    <span class="iconfont"></span>
+  </span>
+</div>
+  </main>
+  <footer>
+  <div class="footer-container">
+    <div class="footer-menus">
+    </div>
+    <div class="footer-copyright">
+      Powered by daifenghao
+      
+      
+
+    </div>
+  </div>
+</footer>
+
+
+  
+
+
+</body>
+
 </html>

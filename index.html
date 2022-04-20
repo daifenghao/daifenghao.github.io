@@ -1,365 +1,331 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>DFH编程笔记</title>
+<!doctype html>
+<html amp lang="">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <meta name="description" content="温故而知新" />
-<link rel="shortcut icon" href="https://daifenghao.github.io/favicon.ico">
-<link rel="stylesheet" href="https://daifenghao.github.io/styles/main.css">
+<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+<link rel="preconnect dns-prefetch" href="https://cdn.jsdelivr.net/" crossorigin>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<title>DFH编程笔记</title>
 
-<script src="https://daifenghao.github.io/media/js/jquery.min.js"></script>
-<script src="https://daifenghao.github.io/media/js/masonry.pkgd.min.js"></script>
-<script src="https://daifenghao.github.io/media/js/aos.js"></script>
-<script src="https://daifenghao.github.io/media/js/pace.min.js"></script>
-<script src="https://daifenghao.github.io/media/js/view-image.min.js"></script>
-<script src="https://daifenghao.github.io/media/js/jquery.magnific-popup.min.js"></script>
-<script src="https://daifenghao.github.io/media/js/functions.js"></script>
-  </head>
-  <body>
-    <!-- start: #wrapper -->
-    <div class="wrapper">
+
+  
+
+    
+
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<link rel="canonical" href="https://daifenghao.github.io" />
+<link rel="shortcut icon" href="https://daifenghao.github.io/favicon.ico?v=1650438770154">
+
+<meta name="author" content="">
+
+<meta itemprop="name" content="DFH编程笔记">
+<meta itemprop="description" content="温故而知新">
+<meta itemprop="image" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DFH编程笔记">
+<meta name="twitter:description" content="温故而知新">
+<meta name="twitter:image" content="" />
+<meta name="twitter:image:alt" content="DFH编程笔记" />
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://daifenghao.github.io">
+<meta property="og:title" content="DFH编程笔记">
+<meta property="og:description" content="温故而知新">
+<meta property="og:image" content="">
+<meta property="og:image:alt" content="DFH编程笔记" />
+<meta property="og:site_name" content="DFH编程笔记">
+<meta property="og:locale" content="zh_CN">
+<meta property="tag" content="DFH编程笔记" />
+
+
+
+
+
+
+<link rel="alternate" type="application/atom+xml" title="DFH编程笔记 - Atom Feed" href="https://daifenghao.github.io/atom.xml">
+
       
-            <header id="header" class="grid-container">
-        <!-- start: .menu-wrapper -->
-        <div class="menu-mobile"> 
-          <i class="fa fa-reorder"></i>
-        </div>
-        <div class="menu-wrapper">
-          <div class="">
-            <div class="logo">
-              <a href="https://daifenghao.github.io"><img src="" alt=""></a>
-            </div>
-            <!-- start: .main-nav -->
+      
 
-            <nav class="main-nav grid-container grid-parent">
-              <ul id="menu-header" class="menu gradient-effect">
-                <li class="current-menu-item"><a href="https://daifenghao.github.io" class="menu">首页</a></li>
-                
-                  <li class="" >
-                    <a href="/" class="menu">
-                      首页
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/archives" class="menu">
-                      归档
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/tags" class="menu">
-                      标签
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/post/about" class="menu">
-                      关于
-                    </a>
-                  </li>
-                
-                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
-              </ul>
-            </nav>
-            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
-            <!-- end: .main-nav -->
-            <div class="clear"></div>
-            <div class="border hide-on-tablet hide-on-mobile"></div>
-          </div>    
-          <div class="clear"></div>
-        </div>
-        <!-- end: .menu-wrapper -->
-        <div class="clear"></div>
-      </header>
-      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
-        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
-          <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1650438259385" action="/search/index.html" class="search-form" _lpchecked="1">
-              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
-              <button type="submit" class="submit" aria-label="Submit">
-                <i class="fa fa-search-line"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
 
-      <main id="home" class="main">
-        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
-        <div class="row">
-          <div class="content-wrapper grid-posts content">
-                
-            <!-- start: .articles -->
+</head>
+
+<body class="home blog">
+  <input type="checkbox" id="header-menu-button">
+  <header id="commonTop">
+  <div class="top-container">
+    <div class="title-menus-area">
+      <a class="blog-title" href="https://daifenghao.github.io">DFH编程笔记</a>
+      <label for="header-menu-button" class="top-menus">
+        <nav class="menu-menu-1-container">
+          <ul id="menu-menu-1" class="menu">
             
-              
-              
-                <div id="single" class="fullcover" style="">
-                   <div class="featured-image cover" style="background-image: url('https://daifenghao.github.io/post-images/win11-az.webp');">
-                    <div class="meta top"> 
-                      <time class="meta-info" style="float:left;" datetime="2022-04-20"><i class="fa fa-calendar"></i><span class="lately">5 小时前</span></time>
-                      
-                    </div>
-                    <div class="info">
-                      <div class="tags ">
-                        <a href="https://daifenghao.github.io/post/win11-az/" class="ctag ctag-1">置顶</a>
-                      </div>
-                      <h1 class="title main-title ularge white bold gradient-effect"><a href="https://daifenghao.github.io/post/win11-az/" style="color:#fff;">windows11安装教程 （老电脑也能装）</a></h1>
-                    </div>
-                  </div>
-                </div>
-                <div class="articles columns-3">
-              
-              
-              
-              
-                
-                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
-                  <div class="article-wrapper  cover" style="background-image: url('');">
-                  <header>
-                    
-                    <div class="meta">
-                      <time datetime="2022-04-20"><i class="fa fa-calendar"></i><span class="lately">1 小时前</span></time>
-                      <div class="clear"></div>
-                    </div>
-                    <h1 class="title main-title gradient-effect"><a href="https://daifenghao.github.io/post/git-jz/">GitHub实用篇-建网站</a></h1>
-                  </header>
-                  <footer class="author-meta">
-                    <a href="" class="author" title="">
-                      <span class="author-image cover" style="background-image: url('https://daifenghao.github.io/images/avatar.png');"></span>
-                      <span class="author-name">DFH编程笔记</span>
-                    </a>
-                    
-                    <div class="clear"></div>
-                  </footer>
-                  <div class="overlay"></div>       
-                </div>
-              </article>
-                
-              
-              
-              
-              
-                
-                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
-                  <div class="article-wrapper  cover" style="background-image: url('https://daifenghao.github.io/post-images/yuanbc-1-6d.png');">
-                  <header>
-                    
-                      <div class="tags absolute">
-                        <a href="https://daifenghao.github.io/tag/ybc-zl/" class="ctag ctag-2 ctag-ybc-zl">猿编程资料</a>
-                      </div>
-                    
-                    <div class="meta">
-                      <time datetime="2022-04-03"><i class="fa fa-calendar"></i><span class="lately">17 天前</span></time>
-                      <div class="clear"></div>
-                    </div>
-                    <h1 class="title main-title gradient-effect"><a href="https://daifenghao.github.io/post/yuanbc-1-6d/">猿编程L1资料汇总（前六节课）</a></h1>
-                  </header>
-                  <footer class="author-meta">
-                    <a href="" class="author" title="">
-                      <span class="author-image cover" style="background-image: url('https://daifenghao.github.io/images/avatar.png');"></span>
-                      <span class="author-name">DFH编程笔记</span>
-                    </a>
-                    
-                    <div class="clear"></div>
-                  </footer>
-                  <div class="overlay"></div>       
-                </div>
-              </article>
-                
-              
-              
-              
-              
-                
-              <article class="default grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry">
-                <div class="article-wrapper">
-                  <header>
-                    <div class="post-format-image post-format-wrapper">
-                      <div class="featured-image">
-                        <a href="https://daifenghao.github.io/post/course learning-d/" class="thumb hover-effect">
-                          <span class="fullimage cover" role="img" aria-label="" style="background-image: url('https://daifenghao.github.io/post-images/course learning-d.png');"></span>
-                        </a>
-                        
-                        <div class="tags absolute">
-                          <a href="https://daifenghao.github.io/tag/studyd/" class="ctag ctag-3 ctag-studyd">学习</a>
-                        </div>
-                        
-                      </div>
-                    </div>                    
-                    <div class="meta">
-                      <time datetime="2022-04-01"><i class="fa fa-calendar"></i><span class="lately">19 天前</span></time>
-                      <div class="clear"></div>
-                    </div>
+            
+            <li>
+              <a href="/" aria-current="page">首页</a></li>
+            
+            
+            
+            <li>
+              <a href="/archives" aria-current="page">归档</a></li>
+            
+            
+            
+            <li>
+              <a href="/tags" aria-current="page">标签</a></li>
+            
+            
+            
+            <li>
+              <a href="/post/about" aria-current="page">关于</a></li>
+            
+            
+          </ul>
+        </nav>
+      </label>
+    </div>
+    
+  </div>
+</header>
 
-                    <h1 class="title main-title gradient-effect"><a href="https://daifenghao.github.io/post/course learning-d/">课程学习全集，国家级课程！还有很多使用资源</a></h1>
-                  </header>
+  <main>
+    <div class="main-container">
+  <div class="post-list">
+    
+    <article class="list-box post type-post status-publish format-standard has-post-thumbnail hentry category-xiaoqiao">
+      
+      <a href="https://daifenghao.github.io/post/win11-az/" class="title-img">
+        <amp-img class="contain" src="https://daifenghao.github.io/post-images/win11-az.webp" layout="fill" alt="windows11安装教程 （老电脑也能装）"></amp-img>
+      </a>
+      
 
-                  <div class="post-excerpt">
-                      <h2 id="今天我给大家带来了各种实用资源好了废话不多说直接上链接走起">今天我给大家带来了各种实用资源，好了，废话不多说，直接上链接！走起！！</h2>
+      <div class="post-info">
+        
+        <div class="flex-box meta-category">
+          <a class="post-cate" href="https://daifenghao.github.io/tag/sD10x1o6y/">win11</a></div>
+        
+        <h2 class="post-title">
+          <a href="https://daifenghao.github.io/post/win11-az/">windows11安装教程 （老电脑也能装）</a>
+        </h2>
+        <div class="post-excerpt">
+          
+        </div>
+        <div class="flex-box justify-between">
+          <a href="https://daifenghao.github.io/post/win11-az/" class="read-more">阅读更多<span class="iconfont icon-ml-readmore"></span></a>
+          <div class="flex-box post-meta-box">
+            <a class="post-meta" href="https://daifenghao.github.io/post/win11-az/#comments"><span class="iconfont icon-mr-postmeta"></span></a>
+            <a class="post-meta" href="https://daifenghao.github.io/post/win11-az/"><span class="iconfont icon-mr-postmeta"></span></a>
+            <a class="post-meta" href="https://daifenghao.github.io/post/win11-az/"><span
+                class="iconfont icon-mr-postmeta icon-like-sp"></span></a>
+          </div>
+
+          <div class="flex-box post-publish-date">
+            <div class="post-date">
+              20
+            </div>
+            <div class="post-month">
+              4月                            
+            </div>  
+          </div>
+
+        </div>
+
+      </div>
+    </article>
+    
+    <article class="list-box post type-post status-publish format-standard has-post-thumbnail hentry category-xiaoqiao">
+      
+
+      <div class="post-info">
+        
+        <h2 class="post-title">
+          <a href="https://daifenghao.github.io/post/git-jz/">GitHub实用篇-建网站</a>
+        </h2>
+        <div class="post-excerpt">
+          
+        </div>
+        <div class="flex-box justify-between">
+          <a href="https://daifenghao.github.io/post/git-jz/" class="read-more">阅读更多<span class="iconfont icon-ml-readmore"></span></a>
+          <div class="flex-box post-meta-box">
+            <a class="post-meta" href="https://daifenghao.github.io/post/git-jz/#comments"><span class="iconfont icon-mr-postmeta"></span></a>
+            <a class="post-meta" href="https://daifenghao.github.io/post/git-jz/"><span class="iconfont icon-mr-postmeta"></span></a>
+            <a class="post-meta" href="https://daifenghao.github.io/post/git-jz/"><span
+                class="iconfont icon-mr-postmeta icon-like-sp"></span></a>
+          </div>
+
+          <div class="flex-box post-publish-date">
+            <div class="post-date">
+              20
+            </div>
+            <div class="post-month">
+              4月                            
+            </div>  
+          </div>
+
+        </div>
+
+      </div>
+    </article>
+    
+    <article class="list-box post type-post status-publish format-standard has-post-thumbnail hentry category-xiaoqiao">
+      
+      <a href="https://daifenghao.github.io/post/yuanbc-1-6d/" class="title-img">
+        <amp-img class="contain" src="https://daifenghao.github.io/post-images/yuanbc-1-6d.png" layout="fill" alt="猿编程L1资料汇总（前六节课）"></amp-img>
+      </a>
+      
+
+      <div class="post-info">
+        
+        <div class="flex-box meta-category">
+          <a class="post-cate" href="https://daifenghao.github.io/tag/ybc-zl/">猿编程资料</a></div>
+        
+        <h2 class="post-title">
+          <a href="https://daifenghao.github.io/post/yuanbc-1-6d/">猿编程L1资料汇总（前六节课）</a>
+        </h2>
+        <div class="post-excerpt">
+          
+        </div>
+        <div class="flex-box justify-between">
+          <a href="https://daifenghao.github.io/post/yuanbc-1-6d/" class="read-more">阅读更多<span class="iconfont icon-ml-readmore"></span></a>
+          <div class="flex-box post-meta-box">
+            <a class="post-meta" href="https://daifenghao.github.io/post/yuanbc-1-6d/#comments"><span class="iconfont icon-mr-postmeta"></span></a>
+            <a class="post-meta" href="https://daifenghao.github.io/post/yuanbc-1-6d/"><span class="iconfont icon-mr-postmeta"></span></a>
+            <a class="post-meta" href="https://daifenghao.github.io/post/yuanbc-1-6d/"><span
+                class="iconfont icon-mr-postmeta icon-like-sp"></span></a>
+          </div>
+
+          <div class="flex-box post-publish-date">
+            <div class="post-date">
+              03
+            </div>
+            <div class="post-month">
+              4月                            
+            </div>  
+          </div>
+
+        </div>
+
+      </div>
+    </article>
+    
+    <article class="list-box post type-post status-publish format-standard has-post-thumbnail hentry category-xiaoqiao">
+      
+      <a href="https://daifenghao.github.io/post/course learning-d/" class="title-img">
+        <amp-img class="contain" src="https://daifenghao.github.io/post-images/course learning-d.png" layout="fill" alt="课程学习全集，国家级课程！还有很多使用资源"></amp-img>
+      </a>
+      
+
+      <div class="post-info">
+        
+        <div class="flex-box meta-category">
+          <a class="post-cate" href="https://daifenghao.github.io/tag/studyd/">学习</a></div>
+        
+        <h2 class="post-title">
+          <a href="https://daifenghao.github.io/post/course learning-d/">课程学习全集，国家级课程！还有很多使用资源</a>
+        </h2>
+        <div class="post-excerpt">
+          <h2 id="今天我给大家带来了各种实用资源好了废话不多说直接上链接走起">今天我给大家带来了各种实用资源，好了，废话不多说，直接上链接！走起！！</h2>
 <h2 id="1">1</h2>
 
-                    <div class="clear"></div>
-                  </div>
-
-                  <footer class="author-meta">
-                    <a href="" class="author" title="">
-                      <span class="author-image cover" style="background-image: url('https://daifenghao.github.io/images/avatar.png');"></span>
-                      <span class="author-name">DFH编程笔记</span>
-                    </a>
-                    
-                    <div class="clear"></div>
-                  </footer>
-                  <div class="border"></div>       
-                </div>
-              </article>
-                
-              
-              
-              <div class="clear"></div>
-              <div class="separator last hide-on-tablet hide-on-mobile"></div>
-            </div>
-            <!-- end: .articles -->
-            
-                        <div class="epcl-pagination section">
-              <div class="nav">
-                
-                
-              </div>
-            </div>
-
-            
+        </div>
+        <div class="flex-box justify-between">
+          <a href="https://daifenghao.github.io/post/course learning-d/" class="read-more">阅读更多<span class="iconfont icon-ml-readmore"></span></a>
+          <div class="flex-box post-meta-box">
+            <a class="post-meta" href="https://daifenghao.github.io/post/course learning-d/#comments"><span class="iconfont icon-mr-postmeta"></span></a>
+            <a class="post-meta" href="https://daifenghao.github.io/post/course learning-d/"><span class="iconfont icon-mr-postmeta"></span></a>
+            <a class="post-meta" href="https://daifenghao.github.io/post/course learning-d/"><span
+                class="iconfont icon-mr-postmeta icon-like-sp"></span></a>
           </div>
-          </div>
-        </div>
-      </main>
 
-        <footer id="footer" class="grid-container">
-        <div class="widgets row gradient-effect">
-            <div class="default-sidebar border-effect">
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
-                  <h4 class="widget-title title white bordered">最新文章</h4>
-                  
-                  
-                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://daifenghao.github.io/post/git-jz/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2022-04-20">2022-04-20</time>
-                      <h4 class="title usmall">
-                        <a href="https://daifenghao.github.io/post/git-jz/">GitHub实用篇-建网站</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://daifenghao.github.io/post/win11-az/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://daifenghao.github.io/post-images/win11-az.webp');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2022-04-20">2022-04-20</time>
-                      <h4 class="title usmall">
-                        <a href="https://daifenghao.github.io/post/win11-az/">windows11安装教程 （老电脑也能装）</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://daifenghao.github.io/post/yuanbc-1-6d/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://daifenghao.github.io/post-images/yuanbc-1-6d.png');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2022-04-03">2022-04-03</time>
-                      <h4 class="title usmall">
-                        <a href="https://daifenghao.github.io/post/yuanbc-1-6d/">猿编程L1资料汇总（前六节课）</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  
-                  
-                  
-                  <div class="clear"></div>
-                </section>
-              </div>
-
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
-                  <h4 class="widget-title title white bordered">标签云</h4>
-                  <div class="tagcloud">
-                    
-                      <a href="https://daifenghao.github.io/tag/sD10x1o6y/" class="ctag ctag-0 ctag-sD10x1o6y" aria-label="">win11</a>
-                    
-                      <a href="https://daifenghao.github.io/tag/ybc-zl/" class="ctag ctag-1 ctag-ybc-zl" aria-label="">猿编程资料</a>
-                    
-                      <a href="https://daifenghao.github.io/tag/studyd/" class="ctag ctag-2 ctag-studyd" aria-label="">学习</a>
-                    
-                  </div>
-                  <div class="clear"></div>
-                </section>
-              </div>
-
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
-                  <h4 class="widget-title title white bordered">关于我</h4>
-                  <div class="avatar">
-                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://daifenghao.github.io/images/avatar.png);"></span></a>
-                  </div>
-                  <div class="info">
-                    <h4 class="title small author-name gradient-effect no-margin"><a href="">DFH编程笔记</a></h4>
-                    <p class="founder">温故而知新</p>
-                    <div class="social">
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                    </div> 
-                  </div>
-                  <div class="clear"></div>
-                  </section>
-              </div>
-
+          <div class="flex-box post-publish-date">
+            <div class="post-date">
+              01
             </div>
-            <div class="clear"></div>
+            <div class="post-month">
+              4月                            
+            </div>  
+          </div>
+
         </div>
 
-        <div class="logo">
-          <a href="https://daifenghao.github.io"><img src="" alt=""></a>
-        </div>
-        <p class="published border-effect">
-          ©2019 共 5 篇文章
-          <br/>
-          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
-        </p>
-        
-        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
-          <i class="fa fa-arrow"></i>
-        </a>
-    </footer>
+      </div>
+    </article>
     
-    <div class="clear"></div>
 
+  </div>
+  <div>
+    <nav class="navigation pagination" role="navigation" aria-label="文章">
+      <h2 class="screen-reader-text">文章导航</h2>
+      <div class="nav-links">
         
+        
+      </div>
+    </nav>
+  </div>
+</div>
+    <div class="sidebar">
+  <aside id="profile-2" class="widget widget_profile">
+    <div class="profile-box">
+      <div class="profile-avatar">
+        <amp-img src="https://daifenghao.github.io/images/avatar.png?v=1650438770154" alt="avatar"
+          layout="fill"></amp-img>
+      </div>
+      <div class="profile-content">
+        <div class="amp-wp-681d4ff">
+          温故而知新
+        </div>
+
+      </div>
+    </div>
+  </aside>
+  
+    
+
+    
+
+   
+
+  <aside id="linkcat-2" class="widget widget_links">
+  <h4 class="widget-title">友链</h4>
+  <ul class="xoxo blogroll">
+    
+  </ul>
+</aside>
+
+
+</div>
+    <div class="scrolltop-wrap">
+  <span tabindex="0" role="button" class="go-top" on="tap:commonTop.scrollTo(duration=500, position=top)">
+    <span class="iconfont"></span>
+  </span>
+</div>
+
+    
+  </main>
+
+  <footer>
+  <div class="footer-container">
+    <div class="footer-menus">
+    </div>
+    <div class="footer-copyright">
+      Powered by daifenghao
+      
+      
 
     </div>
-    <!-- end: #wrapper -->
-  </body>
+  </div>
+</footer>
+
+  
+  
+
+</body>
+
 </html>
