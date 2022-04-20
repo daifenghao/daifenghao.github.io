@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://daifenghao.github.io</id>
     <title>DFH编程笔记</title>
-    <updated>2022-04-20T02:42:02.894Z</updated>
+    <updated>2022-04-20T07:02:39.539Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://daifenghao.github.io"/>
     <link rel="self" href="https://daifenghao.github.io/atom.xml"/>
@@ -10,6 +10,36 @@
     <logo>https://daifenghao.github.io/images/avatar.png</logo>
     <icon>https://daifenghao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, DFH编程笔记</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub实用篇-建网站]]></title>
+        <id>https://daifenghao.github.io/post/git-jz/</id>
+        <link href="https://daifenghao.github.io/post/git-jz/">
+        </link>
+        <updated>2022-04-20T06:18:33.000Z</updated>
+        <content type="html"><![CDATA[<p>今天我要和大家分享如何在github上建设网站，整个过程非常简单。<br>
+1.我们要先注册一个GitHub账号<br>
+2.然后我们要创建一个新库，如果想建设一个向我这样的网站（所说的是域名），那么你库的名字必须是：用户名.github.io，如果想要一个：用户名.github.io/库名的页面，那么请你随意。<br>
+3.上传你的网页文件，不知道的可以去我的库中去参观——<a href="https://github.com/daifenghao/daifenghao.github.io">点击去参观</a>文件在master分支中。(注意，你的库中必须有一个index.html文件，否则会404)<br>
+4.进入Settings，前往Pages<br>
+5.选好部署分支，点击Save，等待十分钟即可<br>
+详见动图<img src="https://daifenghao.github.io/post-images/1650438123306.gif" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub实用篇-建网站]]></title>
+        <id>https://daifenghao.github.io/post/github-shi-yong-pian-jian-wang-zhan/</id>
+        <link href="https://daifenghao.github.io/post/github-shi-yong-pian-jian-wang-zhan/">
+        </link>
+        <updated>2022-04-20T06:18:33.000Z</updated>
+        <content type="html"><![CDATA[<p>今天我要和大家分享如何在github上建设网站，整个过程非常简单。<br>
+1.我们要先注册一个GitHub账号<br>
+2.然后我们要创建一个新库，如果想建设一个向我这样的网站（所说的是域名），那么你库的名字必须是：用户名.github.io，如果想要一个：用户名.github.io/库名的页面，那么请你随意。<br>
+3.上传你的网页文件，不知道的可以去我的库中去参观——<a href="https://github.com/daifenghao/daifenghao.github.io">点击去参观</a>文件在master分支中。(注意，你的库中必须有一个index.html文件，否则会404)<br>
+4.进入Settings，前往Pages<br>
+5.选好部署分支，点击Save，等待十分钟即可<br>
+详见动图<img src="https://daifenghao.github.io/post-images/1650438123306.gif" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[windows11安装教程 （老电脑也能装）]]></title>
         <id>https://daifenghao.github.io/post/win11-az/</id>
